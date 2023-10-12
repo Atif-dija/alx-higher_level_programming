@@ -8,7 +8,7 @@ def roman_to_int(roman_string):
     for s in reversed(roman_string):
         num = dgts[s]
         if T < num * 5:
-            T+= num
+            T += num
         else:
-            T-= num
+            T -= num
     return T
