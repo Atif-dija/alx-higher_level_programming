@@ -10,10 +10,12 @@ class Square:
         size:  is crucial for a square
         """
         self.size = size
+
     @property
     def size(self):
         """ Private instance attribute"""
         return self.__size
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
