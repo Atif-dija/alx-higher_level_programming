@@ -32,7 +32,5 @@ class Square:
         """prints in stdout the square with the character #"""
         for i in range(self.size):
             for j in range(self.size):
-                print("#", end="\n" if j is  self.size - 1 else "")
+                print("#", end="\n" if j is self.size - 1 else"")
         print()
-
-
