@@ -6,14 +6,14 @@ class Rectangle:
     """Rectangle"""
 
     def __init__(self, width=0, height=0):
-        """Instantiation of Rectangle"""
+        """Instantiation"""
         self.height = height
         self.width = width
 
     @property
     def width(self):
         """Private instance attribute width"""
-        return self.width
+        return self.__width
 
     @width.setter
     def width(self, value):
